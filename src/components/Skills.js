@@ -20,7 +20,7 @@ export default function Skills() {
         </h1>
 
         <div className="container flex flex-wrap justify-evenly">
-        <div className="skillCard w-[200px] h-[200px] shadow-xl shadow-gray-500 mb-9 flex flex-col items-center justify-evenly bg-gradient-to-br from-blue-500 from-30% to-indigo-600 rounded-[24px]">
+        <div className="skillCard w-[200px] h-[200px] shadow-xl shadow-gray-500 mb-9 flex flex-col items-center justify-evenly bg-gradient-to-br from-blue-500 from-30% to-indigo-600 rounded-[24px] hover:scale-105 transition-all duration-500">
         <div className="skillLogo text-5xl">
             <div id="htmlCSs" className="flex"><AiFillHtml5 style={{color: "#e96228"}}/> &nbsp; <DiCss3 style={{color: "#36b7f0"}}/></div>
         </div>

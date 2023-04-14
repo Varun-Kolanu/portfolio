@@ -25,17 +25,24 @@ export default function Contact() {
               <Button type="reset" btnText="Reset"/>
               </div>
             </form>
+
             <div id="rightContact" className="pl-52">
-              <div id="mailSend" className="rounded-lg drop-shadow-lg bg-gradient-to-br from-blue-500 from-30% to-indigo-600 flex flex-col justify-evenly items-center my-5 h-[150px]">
+
+              <a href="mailto:kolanuvarun739@gmail.com" target="blank">
+              <div id="mailSend" className="rounded-lg drop-shadow-lg bg-gradient-to-br from-blue-500 from-30% to-indigo-600 flex flex-col justify-evenly items-center my-5 h-[150px] hover:scale-105 transition-all duration-500">
                 <CgMail className="text-4xl text-red-800"/>
                 <span className="text-gray-300 font-bold">Gmail: </span><span className="text-gray-300"> kolanuvarun739@gmail.com</span>
-                <a href="mailto:kolanuvarun739@gmail.com" target="blank" className="text-blue-900 underline font-bold">Send Mail</a>
+                <span className="text-white font-bold">Send Mail</span>
               </div>
-              <div id="wtspSend" className="rounded-lg drop-shadow-lg bg-gradient-to-br from-blue-500 from-30% to-indigo-600 flex flex-col justify-evenly items-center my-5 h-[150px]">
+              </a>
+
+              <a href="https://api.whatsapp.com/send?phone=9603138312" target="blank">
+              <div id="wtspSend" className="rounded-lg drop-shadow-lg bg-gradient-to-br from-blue-500 from-30% to-indigo-600 flex flex-col justify-evenly items-center my-5 h-[150px] hover:scale-105 transition-all duration-500">
                 <RiWhatsappFill className="text-2xl text-[#50cc5d]"/>
                 <span className="text-gray-300 font-bold">Whatsapp: </span><span className="text-gray-300"> +91-9603138312</span>
-                <a href="https://api.whatsapp.com/send?phone=9603138312" target="blank" className="text-blue-900 underline font-bold">Send Message</a>
+                <span className="text-white font-bold">Send Message</span>
               </div>
+              </a>
             </div>
         </div>
       </div>
