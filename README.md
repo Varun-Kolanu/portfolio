@@ -9,12 +9,12 @@ or by following method:
 3. Run `npm i`
 4. You can view the site on [http://localhost:3000/](http://localhost:3000/)
 
-# Tech Stack Used:
+## Tech Stack Used:
 Html, CSS, Tailwind CSS, Javascript, React JS.
 
-# Notable feautures of the website:
+## Notable feautures of the website:
 
-## Codewise:
+### Codewise:
 1. Hovering state of navbar.
 2. Indication of the Section where you are present by color of navbar elements (By window.positionOffsetY).
 3. Change of Contact Me button on scrolling (Manipulating height, width, text size on scrolling).
@@ -32,7 +32,7 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 15. Gradients done by tailwind css.
 16. Used Shadows by tailwind css.
 
-## Designing wise:
+### Designing wise:
 1. Used 60-30-10 rule. Major portion is Bluish shades, Medium portion for white, Minimal portion for Orange, Pink.
 2. Heirarchy maintained. First Image attracts then "Myself Varun", "Contact Me" are seen, then small description, navigation menu is seen.
 3. Width of the main content is limited to 1000px(in desktop) so that one can read comfortably without moving the head much.
