@@ -76,7 +76,7 @@ Steps to run:
 1. Download the project as a zip file and extract it, or clone it. Open in editor.
 2. Run
 ## npm i
-in terminal to install all the dependencies
+in terminal to install all the dependencies.
 3. Run 
-## npm run start 
-to open the website
+## npm start 
+in terminal to open the website
