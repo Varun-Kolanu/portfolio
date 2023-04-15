@@ -35,7 +35,6 @@ function Scroll()
       window.addEventListener("scroll",()=>
       {
         let scrolly = window.pageYOffset
-        console.log(scrolly);
         if(scrolly >= 350 && down===0)
         {
           homebtn.classList.remove("w-[100%]","h-9","text-[16px]");

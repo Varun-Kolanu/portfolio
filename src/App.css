@@ -12,3 +12,7 @@
     transition: all 1s;
 }
 
+div , nav{
+    border: 1px solid black;
+}
+

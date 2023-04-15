@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 import ContactMeBtn from "./ContactMeBtn"
 export default function Navbar() {
   return (
-        <nav id="navbar" className='fixed h-14 flex items-center w-full z-10 bg-[#0169ca] bg-opacity-80'>
+        <nav id="navbar" className='fixed h-14 flex items-center w-[100vw] z-10 bg-[#0169ca] bg-opacity-80 '>
             <img src={logo} alt="V" className='h-12 absolute top-2 left-2 cursor-pointer'/>
             <div id="navmenu" className='absolute right-60'>
                 <ul className='flex items-center'>
