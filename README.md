@@ -1,82 +1,43 @@
-Readme starts from line 75
+# Portfolio
 
-# Getting Started with Create React App
+This is repo for my Portfolio Website.
+You can open the website by clicking on:
+[https://varun-kolanu-portfolio.netlify.app/](https://varun-kolanu-portfolio.netlify.app/)
+or by following mwthod:
+1. Fork and clone the repository.
+2. Install NodeJS on your system.
+3. Run `npm i`
+4. You can view the site on [http://localhost:3000/](http://localhost:3000/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tech Stack Used:
+Html, CSS, Tailwind CSS, Javascript, React JS.
 
-## Available Scripts
+# Notable feautures of the website:
 
-In the project directory, you can run:
+## Codewise:
+1. Hovering state of navbar.
+2. Indication of the Section where you are present by color of navbar elements (By window.positionOffsetY).
+3. Change of Contact Me button on scrolling (Manipulating height, width, text size on scrolling).
+4. Smooth Scrolling (by react-scroll).
+5. Scrolling animation - elements appear as you scroll (By Intersection Observer).
+6. Github, Codeforces, Codechef account links in About Me section.
+7. Linking Website and Github repos to buttons in My Projects section.
+8. I-frame elements to show projects in My projects section.
+9. Form element to contact with clients.
+10. Hover states of buttons.
+11. Can send Gmail and Whatsapp me directly by clicking on the Send Mail, Send Messages respectively.
+12. Linked In, Facebook, Instagram profiles in Contact Section.
+13. Can jump into a section by clicking on navigation menu.
+14. Used react-icons
+15. Gradients done by tailwind css.
+16. Used Shadows by tailwind css.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Steps to run:
-1. Download the project as a zip file and extract it, or clone it. Open in editor.
-2. Run
-## npm i
-in terminal to install all the dependencies.
-3. Run 
-## npm start 
-and open [http://localhost:3000](http://localhost:3000) to view it in browser
+## Designing Used:
+1. Used 60-30-10 rule. Major portion is Bluish shades, Medium portion for white, Minimal portion for Orange, Pink.
+2. Heirarchy maintained. First Image attracts then "Myself Varun", "Contact Me" are seen, then small description, navigation menu is seen.
+3. Width of the main content is limited to 1000px(in desktop) so that one can read comfortably without moving the head much.
+4.  Blue Color is Major since Blue denotes Security, trust, responsibility which are expected in a developer by clients.
+    White: New beginnings, purity
+    Orange: Optimistic, Sociable, Cheerful.
+    Pink: Nurturinh hope.
+5. Font: Mono
