@@ -79,4 +79,4 @@ Steps to run:
 in terminal to install all the dependencies.
 3. Run 
 ## npm start 
-in terminal to open the website
+and open [http://localhost:3000](http://localhost:3000) to view it in browser
