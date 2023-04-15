@@ -39,5 +39,5 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 4.  Blue Color is Major since Blue denotes Security, trust, responsibility which are expected in a developer by clients.
     White: New beginnings, purity
     Orange: Optimistic, Sociable, Cheerful.
-    Pink: Nurturinh hope.
+    Pink: Nurturing hope.
 5. Font: Mono
