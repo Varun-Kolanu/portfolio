@@ -25,7 +25,7 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 8. I-frame elements to show projects in My projects section.
 9. Form element to contact with clients.
 10. Hover states of buttons.
-11. Can send Gmail and Whatsapp me directly by clicking on the Send Mail, Send Messages respectively.
+11. Can send Gmail and Whatsapp to me directly by clicking on the Send Mail, Send Messages respectively.
 12. Linked In, Facebook, Instagram profiles in Contact Section.
 13. Can jump into a section by clicking on navigation menu.
 14. Used react-icons
