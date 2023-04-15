@@ -1,9 +1,9 @@
 # Portfolio
 
-This is repo for my Portfolio Website.
+This is repo of my Portfolio Website.
 You can open the website by clicking on:
 [https://varun-kolanu-portfolio.netlify.app/](https://varun-kolanu-portfolio.netlify.app/)
-or by following method:
+or by following this method:
 1. Fork and clone the repository.
 2. Install NodeJS on your system.
 3. Run `npm i`
@@ -34,7 +34,7 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 
 ### Designing wise:
 1. Used 60-30-10 rule. Major portion is Bluish shades, Medium portion for white, Minimal portion for Orange, Pink.
-2. Heirarchy maintained. First Image attracts then "Myself Varun", "Contact Me" are seen, then small description, navigation menu is seen.
+2. Heirarchy maintained. Firstly, Image attracts a person then "Myself Varun", "Contact Me" are observed, then small description, navigation menu is seen.
 3. Width of the main content is limited to 1000px(in desktop) so that one can read comfortably without moving the head much.
 4.  Blue Color is Major since Blue denotes Security, trust, responsibility which are expected in a developer by clients.
     White: New beginnings, purity
