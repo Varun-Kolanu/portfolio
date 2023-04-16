@@ -31,13 +31,13 @@ export default function Home() {
         </div>
         <div
           id="introImgDiv"
-          className=" w-[70%] hide flex items-center justify-center relative left-6"
+          className="hide flex items-center justify-center relative left-6"
         >
           <img
             src={introImg}
             alt="Developer"
             id="introImg"
-            className="w-[60%]"
+            className="w-[120%]"
           />
         </div>
       </div>
