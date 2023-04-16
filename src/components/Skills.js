@@ -13,47 +13,91 @@ import SkillCard from "./SkillCard";
 export default function Skills() {
   return (
     <div id="skillPage" className="flex justify-center">
-      <div id="skillBox" className="w-[1000px] my-10">
-        <h1 className="my-8 text-[2.5rem] relative left-9 font-mono">
+      <div
+        id="skillBox"
+        className="w-[350px] sm:w-[550px] md:w-[720px] lg:w-[1000px] my-10"
+      >
+        <h1 className="my-8 text-[2.5rem] relative left-9 font-mono inline-block">
           <span>My </span>
           <span className="text-orange-500">Skills</span>
         </h1>
 
-        <div className="container flex flex-wrap justify-evenly">
+        <div className="skillContainer grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center">
           <SkillCard
             img={
-            <><AiFillHtml5 style={{ color: "#e96228" }} />
-            <DiCss3 style={{ color: "#36b7f0" , transitionDelay: "200ms"}} id="html" />
-            </>}
+              <>
+                <AiFillHtml5 style={{ color: "#e96228" }} />
+                <DiCss3
+                  style={{ color: "#36b7f0", transitionDelay: "200ms" }}
+                  id="html"
+                />
+              </>
+            }
             skill="Html + CSS"
           />
           <SkillCard
-            img={<SiTailwindcss style={{ color: "#36b7f0" , transitionDelay: "400ms"}} />}
-            skill="Tailwind CSS" id="tail"
+            img={
+              <SiTailwindcss
+                style={{ color: "#36b7f0", transitionDelay: "400ms" }}
+              />
+            }
+            skill="Tailwind CSS"
+            id="tail"
           />
           <SkillCard
-            img={<SiJavascript style={{ color: "#efd81d" , transitionDelay: "600ms" }} />}
-            skill="JavaScript" id="js"
+            img={
+              <SiJavascript
+                style={{ color: "#efd81d", transitionDelay: "600ms" }}
+              />
+            }
+            skill="JavaScript"
+            id="js"
           />
           <SkillCard
-            img={<DiReact style={{ color: "#00d5f7" , transitionDelay: "800ms" }} />}
-            skill="React JS" id="react"
+            img={
+              <DiReact style={{ color: "#00d5f7", transitionDelay: "800ms" }} />
+            }
+            skill="React JS"
+            id="react"
           />
           <SkillCard
-            img={<DiNodejs style={{ fontSize: "5rem", color: "#404137" , transitionDelay: "1000ms"}} />}
-            skill="Node JS" id="node"
+            img={
+              <DiNodejs
+                style={{
+                  fontSize: "5rem",
+                  color: "#404137",
+                  transitionDelay: "1000ms",
+                }}
+              />
+            }
+            skill="Node JS"
+            id="node"
           />
-          <SkillCard img={<SiExpress />} style={{ transitionDelay: "1200ms"}}  skill="Express JS" />
           <SkillCard
-            img={<DiMongodb style={{ color: "#00e661" , transitionDelay: "1400ms" }} />}
-            skill="Mongo DB" id="mongo"
+            img={<SiExpress />}
+            style={{ transitionDelay: "1200ms" }}
+            skill="Express JS"
           />
           <SkillCard
-            img={<FaPython style={{ color: "#f7cc40" , transitionDelay: "1600ms"}} />}
-            skill="Python" id="py"
+            img={
+              <DiMongodb
+                style={{ color: "#00e661", transitionDelay: "1400ms" }}
+              />
+            }
+            skill="Mongo DB"
+            id="mongo"
+          />
+          <SkillCard
+            img={
+              <FaPython
+                style={{ color: "#f7cc40", transitionDelay: "1600ms" }}
+              />
+            }
+            skill="Python"
+            id="py"
           />
         </div>
       </div>
-      </div>
+    </div>
   );
 }
