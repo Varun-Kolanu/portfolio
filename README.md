@@ -31,6 +31,8 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 14. Used react-icons
 15. Gradients done by tailwind css.
 16. Used Shadows by tailwind css.
+17. Responsive
+18. In small screens, navbar replaced with hamburger, dropdown.
 
 ### Designing wise:
 1. Used 60-30-10 rule. Major portion is Bluish shades, Medium portion for white, Minimal portion for Orange, Pink.
