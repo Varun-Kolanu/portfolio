@@ -55,9 +55,9 @@ export default function Contact() {
               placeholder="Message..."
               className="font-mono bg-transparent my-10 border-b-2 border-b-white focus:outline-none placeholder-cyan-200"
             ></textarea>
-            <div className="btns flex justify-evenly">
-              <ButtonPrimary type="submit" btnText="Submit" width="25%" />
-              <ButtonSecondary type="reset" btnText="Reset" width="25%" />
+            <div className="btns flex justify-center">
+              <ButtonPrimary type="submit" btnText="Submit" width="100%" />
+              <ButtonSecondary type="reset" btnText="Reset" width="100%" />
             </div>
           </form>
 
