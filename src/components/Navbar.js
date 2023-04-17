@@ -8,11 +8,13 @@ export default function Navbar() {
       id="navbar"
       className="fixed top-0 left-0 h-14 flex items-center w-[100vw] z-10 bg-[#0169ca] bg-opacity-80 "
     >
+      <Link smooth={true} duration={900} to="home">
       <img
         src={logo}
         alt="V"
         className="h-12 absolute top-2 left-2 cursor-pointer"
       />
+      </Link>
       <div
         id="navmenu"
         className="absolute lg:right-48 md:right-3 hidden md:block"
