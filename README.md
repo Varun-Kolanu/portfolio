@@ -17,9 +17,9 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 ### Codewise:
 1. Hovering state of navbar.
 2. Indication of the Section where you are present by color of navbar elements (By window.positionOffsetY).
-3. Change of Contact Me button on scrolling (Manipulating height, width, text size on scrolling).
+3. Change of Contact Me button's position on scrolling (Manipulating height, width, text size on scrolling).
 4. Smooth Scrolling (by react-scroll).
-5. Scrolling animation - elements appear as you scroll (By Intersection Observer).
+5. Scrolling animation - elements appear as animation as you scroll (By Intersection Observer).
 6. Github, Codeforces, Codechef account links in About Me section.
 7. Linking Website and Github repos to buttons in My Projects section.
 8. I-frame elements to show projects in My projects section.
@@ -33,6 +33,7 @@ Html, CSS, Tailwind CSS, Javascript, React JS.
 16. Used Shadows by tailwind css.
 17. Responsive
 18. In small screens, navbar replaced with hamburger, dropdown.
+19. When you click on hamburger, you can see it animating to a cross. 
 
 ### Designing wise:
 1. Used 60-30-10 rule. Major portion is Bluish shades, Medium portion for white, Minimal portion for Orange, Pink.
