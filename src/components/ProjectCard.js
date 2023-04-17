@@ -19,7 +19,7 @@ export default function ProjectCard(props) {
           <ButtonPrimary type="button" btnText={props.text} width="100%" />
         </a>
         <a href={props.secondary} target="blank">
-          <ButtonSecondary type="button" btnText="Github Repo" width="100%" />
+          <ButtonSecondary type="button" btnText="Github Repo" width="100%" id={props.btnId}/>
         </a>
       </div>
     </div>

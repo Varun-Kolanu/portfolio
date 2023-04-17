@@ -20,6 +20,7 @@ export default function Projects() {
         >
           <ProjectCard
             id="tourism"
+            btnId="tourismSec"
             img="https://varun-kolanu.github.io/Tourism-Website/tourism.html"
             desc="TraWorld - Tourism Website"
             secondary="https://github.com/Varun-Kolanu/Tourism-Website"
@@ -27,6 +28,7 @@ export default function Projects() {
           />
           <ProjectCard
             id="textutils"
+            btnId="textUtilsSec"
             img="https://varun-kolanu.github.io/TextUtils/"
             desc="TextUtils - Text Utilities Website"
             secondary="https://github.com/Varun-Kolanu/TextUtils"
@@ -34,6 +36,7 @@ export default function Projects() {
           />
           <ProjectCard
             id="smartlearn"
+            btnId="smartLearnSec"
             img="https://varun-kolanu.github.io/Tuitions/Tuitions.html"
             desc="SmartLearn - Tuitions Website"
             secondary="https://github.com/Varun-Kolanu/Tuitions"
