@@ -57,7 +57,7 @@ export default function Contact() {
             ></textarea>
             <div className="btns flex justify-center">
               <ButtonPrimary type="submit" btnText="Submit" width="100%" />
-              <ButtonSecondary type="reset" btnText="Reset" width="100%" />
+              <ButtonSecondary id="reset" type="reset" btnText="Reset" width="100%" />
             </div>
           </form>
 

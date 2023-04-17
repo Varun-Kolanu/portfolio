@@ -10,11 +10,13 @@ import Scroll from "./Scroll";
 import DropdownScript from "./DropdownScript";
 import Dropdown from "./components/Dropdown";
 import Hamburger from "./components/Hamburger";
+import MobileButton from "./components/MobileButtons";
 
 function App() {
   useEffect(() => {
     Scroll();
     DropdownScript();
+    MobileButton();
   });
 
   return (
