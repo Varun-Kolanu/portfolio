@@ -26,7 +26,7 @@ export default function Contact() {
           className="grid grid-flow-row grid-cols-1 sm:grid-cols-2"
         >
           <form
-            action="backend.js"
+            action="#home"
             className="flex flex-col relative top-5 text-white"
           >
             <input
