@@ -83,8 +83,6 @@ function Scroll() {
 
     //In Mobiles
     else {
-
-      console.log(scrolly)
       if (scrolly >= 550 && down2 === 0) {
         homebtn.classList.remove("w-[100%]", "h-9", "text-[16px]");
         homebtn.classList.add("w-0", "h-0", "text-[0px]");
