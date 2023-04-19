@@ -1,3 +1,6 @@
+:root {
+    color-scheme: light only;
+}
 body{
     overflow-x: hidden !important;
     width: auto !important;
