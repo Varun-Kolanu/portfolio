@@ -15,9 +15,9 @@ export default function Skills() {
     <div id="skillPage" className="flex justify-center">
       <div
         id="skillBox"
-        className="w-[350px] sm:w-[550px] md:w-[720px] lg:w-[1000px] my-10"
+        className=" my-5 w-[350px] sm:w-[550px] md:w-[720px] lg:w-[1000px] sm:my-10"
       >
-        <h1 className="my-8 text-[2.5rem] relative left-9 font-mono inline-block">
+        <h1 className=" mb-3 sm:my-8 text-[2.5rem] relative left-9 font-mono inline-block">
           <span>My </span>
           <span className="text-orange-500">Skills</span>
         </h1>
