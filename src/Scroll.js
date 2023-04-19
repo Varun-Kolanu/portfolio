@@ -83,6 +83,7 @@ function Scroll() {
 
     //In Mobiles
     else {
+
       if (scrolly >= 550 && down2 === 0) {
         homebtn.classList.remove("w-[100%]", "h-9", "text-[16px]");
         homebtn.classList.add("w-0", "h-0", "text-[0px]");
@@ -115,14 +116,14 @@ function Scroll() {
         dropaboutnav.classList.remove("underline", "underline-offset-4");
         dropaboutnav.style.color = "white";
       }
-      if (scrolly >= 1260 && scrolly < 3790) {
+      if (scrolly >= 1260 && scrolly < 2180) {
         dropskillsnav.classList.add("underline", "underline-offset-4");
         dropskillsnav.style.color = "#fb923c";
       } else {
         dropskillsnav.classList.remove("underline", "underline-offset-4");
         dropskillsnav.style.color = "white";
       }
-      if (scrolly >= 3790 && scrolly < 6100) {
+      if (scrolly >= 2180 && scrolly < 4520) {
         dropprojectsnav.classList.add("underline", "underline-offset-4");
         dropprojectsnav.style.color = "#fb923c";
       } else {
