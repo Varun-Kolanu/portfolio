@@ -29,9 +29,9 @@ export default function Projects() {
           <ProjectCard
             id="textutils"
             btnId="textUtilsSec"
-            img="https://varun-kolanu.github.io/TextUtilsBuild/"
+            img="https://varun-kolanu.github.io/TextUtils/"
             desc="TextUtils - Text Utilities Website"
-            secondary="https://github.com/Varun-Kolanu/TextUtils"
+            secondary="https://github.com/Varun-Kolanu/textutilssrc"
             primaryUrl="https://varun-kolanu.github.io/TextUtils/"
           />
           <ProjectCard
