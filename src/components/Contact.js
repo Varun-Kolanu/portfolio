@@ -89,7 +89,7 @@ export default function Contact() {
               <span className="text-gray-300 font-bold">Whatsapp: </span>
               <span className="text-gray-300"> +91-9603138312</span>
               <a
-                href="https://api.whatsapp.com/send?phone=9603138312"
+                href="https://api.whatsapp.com/send?text=Hi Varun&phone=919603138312"
                 target="blank"
                 className="text-white font-bold underline underline-offset-2"
               >
