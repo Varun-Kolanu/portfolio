@@ -1,3 +1,4 @@
+
 import React from "react";
 import ButtonPrimary from "./ButtonPrimary";
 import ButtonSecondary from "./ButtonSecondary";
@@ -71,7 +72,7 @@ export default function Contact() {
             >
               <CgMail className="text-4xl text-red-800" />
               <span className="text-gray-300 font-bold">Gmail: </span>
-              <span className="text-gray-300"> kolanuvarun739@gmail.com</span>
+              <span className="text-gray-300"> kolanuvarun739[at]gmail.com</span>
               <a
                 href="mailto:kolanuvarun739@gmail.com"
                 target="blank"
@@ -87,7 +88,7 @@ export default function Contact() {
             >
               <RiWhatsappFill className="text-2xl text-[#50cc5d]" />
               <span className="text-gray-300 font-bold">Whatsapp: </span>
-              <span className="text-gray-300"> +91-9603138312</span>
+              <span className="text-gray-300" title="decipher by letter to number :D"> +IA-IF0CACHCAB</span>
               <a
                 href="https://api.whatsapp.com/send?text=Hi Varun&phone=919603138312"
                 target="blank"
