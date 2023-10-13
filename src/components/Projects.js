@@ -27,20 +27,20 @@ export default function Projects() {
             primaryUrl="https://varun-kolanu.github.io/Tourism-Website/tourism.html"
           />
           <ProjectCard
-            id="textutils"
-            btnId="textUtilsSec"
-            img="https://varun-kolanu.github.io/TextUtils/"
-            desc="TextUtils - Text Utilities Website"
-            secondary="https://github.com/Varun-Kolanu/textutilssrc"
-            primaryUrl="https://varun-kolanu.github.io/TextUtils/"
+            id="todo"
+            btnId="todoSec"
+            img="https://react-todo-app-nine-sage.vercel.app/"
+            desc="Todo - Todo App"
+            secondary="https://github.com/Varun-Kolanu/todo/tree/master/todo-app"
+            primaryUrl="https://react-todo-app-nine-sage.vercel.app/"
           />
           <ProjectCard
-            id="smartlearn"
-            btnId="smartLearnSec"
-            img="https://varun-kolanu.github.io/Tuitions/Tuitions.html"
-            desc="SmartLearn - Tuitions Website"
-            secondary="https://github.com/Varun-Kolanu/Tuitions"
-            primaryUrl="https://varun-kolanu.github.io/Tuitions/Tuitions.html"
+            id="solarsysytem"
+            btnId="solarSytemSec"
+            img="https://solar-system-varun.netlify.app/"
+            desc="Solar System - In three.js"
+            secondary="https://github.com/Varun-Kolanu/solar_sysytem_vite"
+            primaryUrl="https://solar-system-varun.netlify.app/"
           />
 
           <div
