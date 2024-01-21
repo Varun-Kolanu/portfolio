@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectsJson from "../assets/Projects.json";
-import SnakeGame from "../SnakeGameImg.jpg";
-import ButtonPrimary from "./ButtonPrimary";
 
 export default function Projects() {
   return (
