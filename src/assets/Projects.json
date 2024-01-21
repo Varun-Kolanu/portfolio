@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Solar System - Three.Js",
+        "site_url": "https://solar-system-varun.netlify.app/",
+        "github_url": "https://github.com/Varun-Kolanu/solar_sysytem_vite"
+    },
+    {
+        "title": "TODO App - MERN",
+        "site_url": "https://react-todo-app-nine-sage.vercel.app/login",
+        "github_url": "https://github.com/Varun-Kolanu/todo-frontend"
+    },
+    {
+        "title": "Real Estate Price Prediction - ML",
+        "site_url": "https://real-estate-prediction.vercel.app/",
+        "github_url": "https://github.com/Varun-Kolanu/RealEstatePricePrediction"
+    },
+    {
+        "title": "Interactive Web - Without any Library",
+        "site_url": "https://cops-website-inspiration.netlify.app/cops_inspiration",
+        "github_url": "https://github.com/Varun-Kolanu/Cops_Website_inspiration"
+    },
+    {
+        "title": "Tourism Website - HTML, CSS, JS",
+        "site_url": "https://varun-kolanu.github.io/Tourism-Website/tourism.html",
+        "github_url": "https://github.com/Varun-Kolanu/Tourism-Website"
+    },
+    {
+        "title": "Anti Chamber - Three.JS (Team Project)",
+        "site_url": "https://cops-antichamber.netlify.app/",
+        "github_url": "https://github.com/Varun-Kolanu/AntiChamber"
+    }
+]

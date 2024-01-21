@@ -88,7 +88,6 @@ export default function Contact() {
             >
               <RiWhatsappFill className="text-2xl text-[#50cc5d]" />
               <span className="text-gray-300 font-bold">Whatsapp: </span>
-              <span className="text-gray-300" title="decipher by letter to number :D"> +IA-IF0CACHCAB</span>
               <a
                 href="https://api.whatsapp.com/send?text=Hi Varun&phone=919603138312"
                 target="blank"
@@ -104,16 +103,16 @@ export default function Contact() {
             >
               <a
                 href="https://www.linkedin.com/in/varun-kolanu-3b10ba144/"
-                target="blank"
+                target="blank" className="hover:scale-125 transition-all duration-200 ease-out"
               >
                 {" "}
                 <BsLinkedin />{" "}
               </a>
-              <a href="https://www.facebook.com/kolanu.varun" target="blank">
+              <a href="https://www.facebook.com/kolanu.varun" target="blank" className="hover:scale-125 transition-all duration-200 ease-out">
                 {" "}
                 <BsFacebook />{" "}
               </a>
-              <a href="https://www.instagram.com/varun_kolanu/" target="blank">
+              <a href="https://www.instagram.com/varun_kolanu/" target="blank" className="hover:scale-125 transition-all duration-200 ease-out">
                 {" "}
                 <BsInstagram />{" "}
               </a>

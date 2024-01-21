@@ -30,7 +30,7 @@ function Scroll() {
   let down2 = 0;
   let up2 = 1;
   window.addEventListener("scroll", () => {
-    let scrolly = window.pageYOffset;
+    let scrolly = window.scrollY;
     if (window.innerWidth >= 768) {
       if (scrolly >= 350 && down === 0) {
         homebtn.classList.remove("w-[100%]", "h-9", "text-[16px]");

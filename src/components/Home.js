@@ -1,6 +1,7 @@
 import React from "react";
 import introImg from "../introImg.png";
 import ContactMeBtn from "./ContactMeBtn.js";
+import ButtonSecondary from "./ButtonSecondary.js";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
               text="[16px]"
               hidden="block"
             />
+            <a href="/Documents/Resume.docx" download="Resume_Varun_Kolanu.docx">
+              <ButtonSecondary id="cv" type="button" btnText="Download CV" width="50%" />
+            </a>
           </div>
         </div>
         <div
