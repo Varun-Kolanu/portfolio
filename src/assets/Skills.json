@@ -1,23 +1,28 @@
 [
-    "TailwindCSS",
-    "Sass",
-    "ReactJs",
-    "NextJs",
-    "ThreeJs",
+  "TailwindCSS",
+  "Sass",
+  "ReactJs",
+  "Flutter",
+  "NextJs",
+  "ThreeJs",
 
-    "NodeJs",
-    "MongoDB",
-    "PostgreSQL",
-    "GraphQL",
-    "Prisma",
-    "Django",
+  "NodeJs",
+  "MongoDB",
+  "PostgreSQL",
+  "GraphQL",
+  "Prisma",
+  "Django",
 
-    "Linux",
-    "Git",
-    
-    "Python",
-    "JavaScript",
-    "TypeScript",
-    "Dart",
-    "Cpp"
+  "Hardhat",
+  "Solidity",
+
+  "Shell Scripting",
+  "Git",
+  "AWS",
+
+  "Go",
+  "Python",
+  "JavaScript",
+  "TypeScript",
+  "Cpp"
 ]

@@ -39,8 +39,13 @@ export default function Home() {
               text="[16px]"
               hidden="block"
             />
-            <a href="/Documents/Resume.docx" download="Resume_Varun_Kolanu.docx">
-              <ButtonSecondary id="cv" type="button" btnText="Download CV" width="50%" />
+            <a href="/Documents/Resume.pdf" download="Resume_Varun_Kolanu.pdf">
+              <ButtonSecondary
+                id="cv"
+                type="button"
+                btnText="Download CV"
+                width="50%"
+              />
             </a>
           </div>
         </div>
