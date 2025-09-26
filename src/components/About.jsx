@@ -1,7 +1,8 @@
-import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { SiCodeforces } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
+import { BsBoxArrowUpRight } from 'react-icons/bs';
+
 export default function About() {
   return (
     <div id="about" className="flex justify-center bg-[#0088ff] relative ">
@@ -17,20 +18,21 @@ export default function About() {
           id="aboutDescription"
           className=" leading-loose text-white lg:text-[1.1rem] md:text-[1rem] lg:w-[800px] md:w-[600px] sm:w-[500px]"
         >
-          Hi! Myself Varun Kolanu, CSE sophomore, from IIT (BHU) Varanasi.
-          <br />
-          I like to deep dive into technologies and explore different domains.
-          Am a Core team member of COPS SDG (Software Development Guild), IIT
-          (BHU). Have grabbed Bronze Medal at Inter IIT Tech Meet 12. Interested
-          in Web Development, Machine Learning, Web3, App Development,
-          Competitive Programming.
-          <br />
-          <span className="font-bold text-[#fb923c]">Birth Place: </span>
-          Hyderabad, India. <br />
-          <span className="font-bold text-[#fb923c]">Born: </span>6th Sep 2004{" "}
-          <br />
-          <span className="font-bold text-[#fb923c]">Hobbies: </span> Playing
-          chess, Sketching, Traveling.
+          Hi, I'm Varun Kolanu, a 4th-year CSE student at IIT (BHU) Varanasi. You can usually find me geeking out
+          over various software development technologies or overthinking existential questions. My areas of interests include web and app dev, compilers, open-source contributions.&nbsp;
+          If you enjoy my work and want to support me, you can
+          <a
+            href="https://www.buymeacoffee.com/varun.kolanu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline"
+          >
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+              alt="Buy Me A Coffee"
+              style={{ height: '60px', width: '217px' }}
+            />
+          </a>
         </p>
         <div
           id="profileLinks"

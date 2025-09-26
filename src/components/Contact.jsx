@@ -1,5 +1,3 @@
-
-import React from "react";
 import ButtonPrimary from "./ButtonPrimary";
 import ButtonSecondary from "./ButtonSecondary";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -64,7 +62,7 @@ export default function Contact() {
 
           <div
             id="rightContact"
-            className="mt-12 sm:mt-0 flex flex-col items-center"
+            className="mt-12 sm:mt-0 flex flex-col items-center "
           >
             <div
               id="mailSend"

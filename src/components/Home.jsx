@@ -1,12 +1,10 @@
-import React from "react";
-import introImg from "../introImg.png";
-import ContactMeBtn from "./ContactMeBtn.js";
-import ButtonSecondary from "./ButtonSecondary.js";
+import ContactMeBtn from "./ContactMeBtn";
+import ButtonSecondary from "./ButtonSecondary";
 
 export default function Home() {
   return (
     <div
-      id="home"
+      id="homeCover"
       className="pt-20 sm:h-[130vh] md:h-[100vh] relative flex md:flex-row sm:flex-col sm:items-center md:items-start justify-center bg-[#0169ca]"
     >
       <div
@@ -24,8 +22,7 @@ export default function Home() {
             Myself <span className="text-orange-400">Varun</span>{" "}
           </div>
           <div id="description" className="font-mono md:text-sm text-[15px]">
-            I'm a Deve-love-per, transforming ideas into high-quality and
-            functional Web Projects, on time and in budget
+            I'm a developer, geeking out on technology and contributing to various open-source projects.
           </div>
 
           <div id="button" className="flex justify-center mt-4">
@@ -43,7 +40,7 @@ export default function Home() {
               <ButtonSecondary
                 id="cv"
                 type="button"
-                btnText="Download CV"
+                btnText="Download Resume"
                 width="50%"
               />
             </a>
@@ -54,7 +51,7 @@ export default function Home() {
           className="sm:w-[70%] md:w-[90%] lg:w-[100%] md:left-3 hide flex items-center justify-center relative"
         >
           <img
-            src={introImg}
+            src="/introImg.png"
             alt="Developer"
             id="introImg"
             className="w-[120%]"

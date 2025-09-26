@@ -15,7 +15,7 @@ export default function Skills() {
         </h1>
 
         <div className="skillContainer grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 md:grid-cols-4  justify-items-center">
-          {SkillJson.map((sk, index) => (
+          {SkillJson.map((sk) => (
             <SkillCard
               img={
                 <img src={`/Images/${sk}.svg`} className="w-12 h-12" alt={sk} />

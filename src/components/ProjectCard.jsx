@@ -16,7 +16,7 @@ export default function ProjectCard(props) {
       <p className="text-center text-white mt-5 text-lg">{props.desc}</p>
       <div className="projectBtns flex my-5">
         <a href={props.primaryUrl} target="blank">
-          <ButtonPrimary type="button" btnText={props.text} width="100%" />
+          <ButtonPrimary type="button" btnText="Open" width="100%" />
         </a>
         <a href={props.secondary} target="blank">
           <ButtonSecondary type="button" btnText="Github Repo" width="100%" id={props.btnId}/>
