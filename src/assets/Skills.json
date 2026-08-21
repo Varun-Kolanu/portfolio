@@ -1,25 +1,24 @@
 [
-  "TailwindCSS",
-  "Sass",
-  "ReactJs",
-  "Flutter",
-  "NextJs",
-  "ThreeJs",
-
   "NodeJs",
-  "MongoDB",
+  "TypeScript",
+  "Solidity",
+  "Web3Js",
+  "Go",
+  "Rust",
+  "NextJs",
+  "ReactJs",
+  "Python",
+  "Django",
   "PostgreSQL",
+  "MongoDB",
   "GraphQL",
   "Prisma",
-  "Django",
-
-  "Git",
   "AWS",
-
-  "Rust",
-  "Go",
-  "Python",
+  "Git",
+  "Cpp",
   "JavaScript",
-  "TypeScript",
-  "Cpp"
+  "Flutter",
+  "ThreeJs",
+  "TailwindCSS",
+  "Sass"
 ]
