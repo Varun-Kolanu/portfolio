@@ -18,8 +18,8 @@ export default function About() {
           id="aboutDescription"
           className=" leading-loose text-white lg:text-[1.1rem] md:text-[1rem] lg:w-[800px] md:w-[600px] sm:w-[500px]"
         >
-          Hi, I'm Varun Kolanu, a 4th-year CSE student at IIT (BHU) Varanasi. You can usually find me geeking out
-          over various software development technologies or overthinking existential questions. My areas of interests include web and app dev, compilers, open-source contributions.&nbsp;
+          Hi, I'm Varun Kolanu, a CSE student graduated from IIT (BHU) Varanasi. You can usually find me geeking out
+          over various software development technologies or overthinking existential questions. My areas of interests include web and app dev, web3, compilers, open-source contributions.&nbsp;
           If you enjoy my work and want to support me, you can
           <a
             href="https://www.buymeacoffee.com/varun.kolanu"
